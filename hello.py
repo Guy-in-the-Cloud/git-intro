@@ -16,3 +16,6 @@ while count - 1 != n: # 2 != 3
     index += 1         # index = 3
 
 print(out)
+
+# why...
+# bhavika was here :)
