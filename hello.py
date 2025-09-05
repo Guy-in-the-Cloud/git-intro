@@ -1,6 +1,6 @@
 from sympy import isprime
 
-n = int(input()) # nth prime number
+n = int(input("Enter the nth prime: ")) # nth prime number
 
 out = 2
 count = 1
