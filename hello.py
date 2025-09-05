@@ -1,5 +1,18 @@
-print("Hello World!");
+from sympy import isprime
 
-a = int(input("Enter a number: "))
+n = int(input()) # nth prime number
 
-print(f"Your number is {a}")
+out = 2
+count = 1
+index = 1
+
+
+while count - 1 != n: # 2 != 3
+
+    if isprime(index): # isprime(3)
+        out = index # out = 3
+        count+=1 # count = 3
+    
+    index += 1         # index = 3
+
+print(out)
