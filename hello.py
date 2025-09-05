@@ -16,3 +16,5 @@ while count - 1 != n: # 2 != 3
     index += 1         # index = 3
 
 print(out)
+
+#Steve Jobs is my goat
